@@ -28,4 +28,4 @@ https://www.youtube.com/watch?v=0Q3R2-z3usI&list=PLl8lST6xZTJbKeenc9ZhbP3T7f6GZi
 
 Buono studio! :)
 
-by in120mins
+by LessTheory Academy
