@@ -24,7 +24,7 @@ Impareremo Spring Boot realizzando un progetto, passo a passo, e durante lo svil
 Corso Spring Boot in 2 ore : il corso per imparare Spring Boot in pochissimo tempo, con meno teoria e più pratica! 
 
 ## Vuoi seguire tutto il corso? Eccoti il link alla playlist con tutti i video! :) 
-https://www.youtube.com/watch?v=0Q3R2-z3usI&list=PLl8lST6xZTJbKeenc9ZhbP3T7f6GZiJaq
+https://www.youtube.com/watch?v=tCICkpVXtng&list=PLl8lST6xZTJbKeenc9ZhbP3T7f6GZiJaq
 
 Buono studio! :)
 
