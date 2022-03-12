@@ -1,0 +1,154 @@
+/*
+
+MIT License
+
+Copyright (c) 2021 LessTheory Academy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}         
+
+/* Unvisited link  */
+a:visited {color:#fff;} /* Visited link    */
+a:hover {color:#fff;}   /* Mouse over link */
+a:active {color:#fff;}  /* Selected link   */
+
+.btn-info {
+    color: #fff;
+    background-color: #545656;
+    border-color: #ffffff;
+}
+
+.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:visited {
+    background-color: #323535;
+    border-color: #ffffff;
+}
+
+.align-right {
+	text-align:right;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+header {
+    position: fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    height:50px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    opacity: 0.7;
+    padding:80px 203px 10px 200px;
+	font-size:30px;
+}
+
+main {
+    margin:150px 200px;
+}
+
+.grid-item {
+    position: relative;
+	width: 14.28%; 
+	border:5px solid black;
+	transition: transform .2s;
+}
+
+.grid-item:hover {
+	transform: scale(1.03);
+	z-index:200;
+}
+
+.grid-item > i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.grid-item img { 
+	width: 100%; 
+}
+
+main.admin {
+	max-width:610px;
+	margin:115px auto;
+}
+
+.add-photo {
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.admin-table {
+	border-spacing:0;
+}
+
+.admin-table thead th {
+	border-bottom:2px solid #fff;
+}
+
+.admin-table tbody td {
+	border-bottom:1px solid #fff;
+}
+
+.admin-table th,
+.admin-table td {
+	padding:30px;
+}
+
+.admin-table td:nth-child(3) {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.admin-table .edit,
+.admin-table .delete {
+	text-align:center;
+}
