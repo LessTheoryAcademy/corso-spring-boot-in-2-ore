@@ -8,7 +8,7 @@
 
 Questo è il corso che fa per te!
 
-Impareremo Spring Boot realizzando un progetto, passo a passo, e durante lo sviluppo introdurremo le tecnologie fondamentali per la conoscenza di Spring Boot.
+Impareremo Spring Boot realizzando un progetto, passo dopo passo, e durante lo sviluppo introdurremo le tecnologie fondamentali per la conoscenza di Spring Boot.
 
 ## Di cosa parliamo in questo corso?
 - Spieghiamo cosa è Spring Boot
